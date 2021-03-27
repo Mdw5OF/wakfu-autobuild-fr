@@ -1,6 +1,6 @@
 {
-  "name": "wakfu-autobuild",
-  "version": "0.4.0",
+  "name": "wakfu-autobuild-fr",
+  "version": "0.1.0",
   "description": "Pick the best set automatically",
   "keywords": [
     "wakfu"
@@ -16,9 +16,9 @@
     "postversion": "git push --follow-tags && npm publish",
     "build": "inlinejs README.md -o README.md"
   },
-  "repository": "eight04/wakfu-autobuild",
-  "author": "eight04 <eight04@gmail.com>",
-  "license": "MIT",
+  "repository": "tdlu440/wakfu-autobuild-fr",
+  "author": "tdlu440 <safetuseT0@gmail.com>",
+  "license": "GPL-3.0-or-later",
   "devDependencies": {
     "c8": "^7.1.2",
     "eslint": "^7.1.0",

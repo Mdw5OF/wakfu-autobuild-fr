@@ -6,7 +6,7 @@ const neodoc = require("neodoc");
 
 const args = neodoc.run(`
 Usage:
-  wakfu-autobuild [options]
+  wakfu-autobuild-fr [options]
 
 Options:
   --level=<number>                  character level. [default: 1]
