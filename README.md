@@ -13,7 +13,7 @@ Install
 -------
 
 ```
-npm install -g wakfu-autobuild
+npm install -g wakfu-autobuild-fr
 ```
 
 Usage
