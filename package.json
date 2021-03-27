@@ -16,9 +16,12 @@
     "postversion": "git push --follow-tags && npm publish",
     "build": "inlinejs README.md -o README.md"
   },
-  "repository": "tdlu440/wakfu-autobuild-fr",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tdlu440/wakfu-autobuild-fr.git"
+  },
   "author": "tdlu440 <safetuseT0@gmail.com>",
-  "license": "GPL-3.0-or-later",
+  "license": "MIT",
   "devDependencies": {
     "c8": "^7.1.2",
     "eslint": "^7.1.0",
@@ -32,5 +35,15 @@
     "neodoc": "^2.0.2",
     "temp-dir": "^2.0.0"
   },
-  "bin": "./cli.js"
+  "bin": {
+    "wakfu-autobuild-fr": "cli.js"
+  },
+  "bugs": {
+    "url": "https://github.com/tdlu440/wakfu-autobuild-fr/issues"
+  },
+  "homepage": "https://github.com/tdlu440/wakfu-autobuild-fr#readme",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  }
 }
